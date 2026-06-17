@@ -57,6 +57,8 @@ resource "aws_db_instance" "prod_main" {
 }
 
 # Yield-data production RDS instance – apply the same settings as the main instance.
+# Note: the identifier 'mgproductionyeilddata-prod' reflects the existing resource name
+# in AWS (including the original typo). It cannot be changed without replacing the instance.
 resource "aws_db_instance" "prod_yield" {
   identifier = "mgproductionyeilddata-prod"
 

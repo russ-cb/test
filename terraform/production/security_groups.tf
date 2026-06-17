@@ -11,9 +11,9 @@
 #   3306 – MySQL/Aurora
 #   5432 – PostgreSQL
 #   1433 – MSSQL
-#   27017– MongoDB
+#   27017 – MongoDB
 #   6379 – Redis
-#   11211– Memcached
+#   11211 – Memcached
 # ---------------------------------------------------------------------------
 
 locals {
